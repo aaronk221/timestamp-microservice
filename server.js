@@ -37,6 +37,16 @@ function showDate(req, res){
 		console.log("json created.");
 		
 	}
+	else{
+
+		var json = {
+
+			natural: null,
+			unix: null
+
+		}
+
+	}
 	
 	res.send(json);
 
