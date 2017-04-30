@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aaronk221/timestamp-microservice/issues"
   },
-  "homepage": "https://github.com/aaronk221/timestamp-microservice#readme"
+  "homepage": "https://github.com/aaronk221/timestamp-microservice#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
