@@ -9,7 +9,7 @@ var app = express();
 
 app.use(express.static('website'));
 
-app.listen(port, function(){
+app.listen(3000, function(){
 
 	console.log('server is running');
 
@@ -25,7 +25,7 @@ function showDate(req, res){
 	else
 		var date = moment.unix(Number(data.date));
 	
-	if(date){
+	if(date.isValid()){
 		
 		var json = {
 		
