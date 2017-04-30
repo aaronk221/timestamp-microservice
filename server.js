@@ -9,7 +9,7 @@ var app = express();
 
 app.use(express.static('website'));
 
-app.listen(3000, function(){
+app.listen(port, function(){
 
 	console.log('server is running');
 
